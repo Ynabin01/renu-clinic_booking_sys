@@ -1,0 +1,4 @@
+<?php $pageTitle='Home'; $basePath=''; require 'includes/header.php'; ?>
+<section class="hero"><h1>Book Clinic Appointments Online</h1><p>A simple web information system for patients to request clinic appointments and for clinics to organise their schedules.</p><div class="actions"><a class="btn" href="patient/register.php">Create Patient Account</a><a class="btn" href="clinics.php">View Clinics</a></div></section>
+<section class="section"><h2>How it works</h2><div class="grid"><div class="card"><h3>1. Register</h3><p>Create a patient account with basic contact information.</p></div><div class="card"><h3>2. Choose a clinic</h3><p>View available clinics and select the one you want.</p></div><div class="card"><h3>3. Book</h3><p>Select a date and time and submit your appointment request.</p></div></div></section>
+<?php require 'includes/footer.php'; ?>
